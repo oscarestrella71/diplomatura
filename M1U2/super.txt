@@ -3,3 +3,9 @@ Azucar
 Leche
 Pan
 Manteca
+-------
+Harina
+Levadura
+Muzarela
+Aceitunas
+Tomates
