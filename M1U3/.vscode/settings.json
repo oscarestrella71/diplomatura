@@ -1,0 +1,6 @@
+{
+    "workbench.cloudChanges.autoResume": "onReload",
+    "workbench.cloudChanges.continueOn": "off",
+    "notebook.output.wordWrap": false,
+    "debug.console.wordWrap": false
+}
