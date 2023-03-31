@@ -1,3 +1,19 @@
 h2{
-    color:blue;
+    color:blue; /*este es un comentario en css*/ /*color de subtitulo*/
+    font-size: 30px;
+}
+h1{
+    color:brown;
+    background-color: aqua;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    color:aquamarine;
+    font-size: 25px;
+}
+.destacados{
+    color:red;
+    font-weight: bold;
+    
 }
