@@ -1,6 +1,11 @@
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif;*/
 h2{
-    color:blue; /*este es un comentario en css*/ /*color de subtitulo*/
+    color:blue; 
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+
 }
 h1{
     color:brown;
@@ -9,7 +14,7 @@ h1{
     text-transform: uppercase;
 }
 h3{
-    color:aquamarine;
+    color:green;
     font-size: 25px;
 }
 .destacados{
@@ -25,4 +30,7 @@ h3{
     border: 3px solid black;
     padding: 15px;
     margin-left: 400px;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 10px 10px 5px red;
+    column-count: 2;
 }
