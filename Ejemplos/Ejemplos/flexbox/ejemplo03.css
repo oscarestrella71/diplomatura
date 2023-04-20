@@ -1,12 +1,12 @@
-.contenedor{
+.contenedor {
 	background-color: blue;
 	display: inline-flex;
-	 flex-wrap: nowrap; 
-	/*flex-wrap: wrap;*/ 
-	/* flex-wrap: wrap-reverse;*/ 
+	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	flex-wrap: wrap-reverse;
 }
 
-.item{
+.item {
 	background-color: #ccc;
 	width: 300px;
 	height: 100px;
