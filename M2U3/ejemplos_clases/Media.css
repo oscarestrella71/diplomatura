@@ -6,7 +6,9 @@
     display: inline-flex;
     justify-content: space-between;
 }
-.enlace{
+
+
+.nav{
     background-color: yellow;
     width: 150px;
     height: 110px;
