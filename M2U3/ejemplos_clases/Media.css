@@ -29,5 +29,5 @@
     height: 350px;
     flex-direction: row;
 }
-@media (max-width: 800px){
-    .contenedor, .enlace, .ejemplo, .contenido }
+@media (max-width: 600px){
+    .contenedor, .container, .enlace, .ejemplo, .contenido }
