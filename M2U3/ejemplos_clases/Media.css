@@ -1,14 +1,16 @@
-
 .contenedor{
+    background-color: aquamarine;
+    width: 800px;
+    height: 100px;
+}
+.container{
     background-color: aquamarine;
     width: 800px;
     height: 400px;
     display: inline-flex;
     justify-content: space-between;
 }
-
-
-.nav{
+.enlace{
     background-color: yellow;
     width: 150px;
     height: 110px;
@@ -27,3 +29,5 @@
     height: 350px;
     flex-direction: row;
 }
+@media (max-width: 800px){
+    .contenedor, .enlace, .ejemplo, .contenido }
