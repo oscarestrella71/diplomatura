@@ -9,25 +9,23 @@
     height: 400px;
     display: inline-flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 .enlace{
     background-color: yellow;
     width: 150px;
     height: 110px;
-    flex-direction: row;
 
 }
 .ejemplo{
     background-color: beige;
     width: 450px;
     height: 120px;
-    flex-direction: row;
 }
 .contenido{
     background-color: orange;
     width: 150px;
     height: 350px;
-    flex-direction: row;
 }
 @media (max-width: 600px){
     .contenedor, .container, .enlace, .ejemplo, .contenido }
