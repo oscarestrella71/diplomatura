@@ -3,20 +3,25 @@
 
 body {
 	color: #000;
-	background: #332F29;
+	background-color: brown;
 	font-size: 100%;
 }
 
-#contenedor {
+.contenedor {
 	width: 800px;
-	background: #8FA68E;
+	background-color: aquamarine;
 	margin-right: auto;
 	margin-left: auto;
 	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
-nav {
-	background: #CC3910;
+.item1 {
+	width: 150px;
+	height: 100px;
+	background-color: red;
 	float: left;
 	width: 160px;
 }
@@ -26,36 +31,35 @@ ul {
 }
 
 a {
-	color: #F1F2C0;
+	color: white;
 	text-decoration: none;
 }
 
-section {
-	background: #F1F2C0;
-	float: left;
+.item2 {
+	width: 400px;
+	height: 150px;
+	background-color: greenyellow;
 	margin: 0 0 0 25px;
+	float: left;
 	width: 400px;
 }
 
-aside {
-	background: #CCC59E;
+.item3 {
+	width: 200px;
+	height: 400px;
+	background-color: beige;
 	float: right;
 	width: 190px;
 }
 
-@media screen and(max-width: 800px){
-	#contenedor{
+@media (max-width: 800px) {
+
+	.item1,
+	.item2,
+	.item3 {
 		width: 100%;
 	}
-	nav{
-		width: 100%;
-	}
-	section{
-		width: 100%;
-	}
-	aside{
-		width: 100%;
+	.item2{
+		margin: 0;
 	}
 }
-
-
