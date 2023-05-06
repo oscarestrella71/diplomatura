@@ -1,29 +1,28 @@
 @charset "utf-8";
 /* CSS Document */
-
-body {
-	color: #000;
-	background-color: brown;
+body{
+	color: black;
+	background-color: blue;
 	font-size: 100%;
 }
 
 .contenedor {
-	width: 800px;
+	width: 900px;
+	height: 500px;
 	background-color: aquamarine;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto;
 	overflow: hidden;
-	display: flex;
+	padding: 10px;
+	display: inline-flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: stretch;
 }
 
 .item1 {
 	width: 150px;
-	height: 100px;
-	background-color: red;
 	float: left;
-	width: 160px;
+	background-color: red;
 }
 
 ul {
@@ -37,29 +36,21 @@ a {
 
 .item2 {
 	width: 400px;
-	height: 150px;
-	background-color: greenyellow;
 	margin: 0 0 0 25px;
 	float: left;
-	width: 400px;
+	background-color: greenyellow;
 }
 
 .item3 {
 	width: 200px;
-	height: 400px;
-	background-color: beige;
 	float: right;
-	width: 190px;
+	background-color: beige;
 }
-
-@media (max-width: 800px) {
-
-	.item1,
-	.item2,
-	.item3 {
-		width: 100%;
-	}
-	.item2{
-		margin: 0;
-	}
+@media screen and
+ (max-width: 800px){
+	.item1, .item2, .item3{
+		width: 100%;}
+		.item2{
+			margin: 0;
+		}
 }
