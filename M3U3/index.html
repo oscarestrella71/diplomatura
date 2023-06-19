@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const metros = '150000';
+        let transporte = '';
+
+        if (metros > 0 && metros <= 1000) {
+            document.write(`El transporte es a pie si son ${metros} metros`);
+        } else if (metros >= 1000 && metros <= 10000) {
+            document.write(`El transporte es en bicicleta si son ${metros} metros`);
+        } else if (metros >= 10000 && metros <= 30000) {
+            document.write(`El transporte es en colectivo si son ${metros} metros`);
+        } else if (metros >= 30000 && metros <= 100000) {
+            document.write(`El transporte es en auto si son ${metros} metros`);
+        } else if (metros > 100000) {
+            document.write(`El transporte es en avion si son ${metros} metros`);
+        }
+
+       
+
+</body>
+
+</html>
