@@ -1,0 +1,16 @@
+.contenedor{
+    display: flex;
+}
+.cuadrado{
+    height: 150px;
+    width: 150px;
+}
+.rojo{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+.verde{
+    background-color: green;
+}
